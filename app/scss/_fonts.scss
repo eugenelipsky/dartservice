@@ -1,0 +1,161 @@
+/*ICOMOON*/
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?tv9v2f');
+  src: url('../fonts/icomoon.eot?tv9v2f#iefix') format('embedded-opentype'),
+  url('../fonts/icomoon.ttf?tv9v2f') format('truetype'),
+  url('../fonts/icomoon.woff?tv9v2f') format('woff'),
+  url('../fonts/icomoon.svg?tv9v2f#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook-square:before {
+  content: "\f082";
+}
+.icon-twitter1:before {
+  content: "\f099";
+}
+.icon-linkedin1:before {
+  content: "\f0e1";
+}
+.icon-dribbble1:before {
+  content: "\f17d";
+}
+.icon-behance1:before {
+  content: "\f1b4";
+}
+.icon-behance:before {
+  content: "\e910";
+}
+.icon-dribbble:before {
+  content: "\e900";
+}
+.icon-brand:before {
+  content: "\e900";
+}
+.icon-social:before {
+  content: "\e900";
+}
+.icon-linkedin:before {
+  content: "\e901";
+}
+.icon-brand1:before {
+  content: "\e901";
+}
+.icon-social1:before {
+  content: "\e901";
+}
+.icon-facebook:before {
+  content: "\e902";
+}
+.icon-brand2:before {
+  content: "\e902";
+}
+.icon-social2:before {
+  content: "\e902";
+}
+.icon-twitter:before {
+  content: "\e903";
+}
+.icon-brand3:before {
+  content: "\e903";
+}
+.icon-tweet:before {
+  content: "\e903";
+}
+.icon-social3:before {
+  content: "\e903";
+}
+.icon-play_arrow:before {
+  content: "\e904";
+}
+.icon-businessdomain:before {
+  content: "\e905";
+}
+.icon-emailmailmarkunreadlocal_post_office:before {
+  content: "\e906";
+}
+.icon-rss_feed:before {
+  content: "\e907";
+}
+.icon-file_downloadget_app:before {
+  content: "\e908";
+}
+.icon-keyboard_arrow_down:before {
+  content: "\e909";
+}
+.icon-keyboard_arrow_up:before {
+  content: "\e90a";
+}
+.icon-arrow_drop_down:before {
+  content: "\e90b";
+}
+.icon-grouppeople:before {
+  content: "\e90c";
+}
+.icon-person:before {
+  content: "\e90d";
+}
+.icon-settings:before {
+  content: "\e90e";
+}
+.icon-trending_up:before {
+  content: "\e90f";
+}
+
+
+/*ICOFONT*/
+
+@font-face {
+
+  font-family: "IcoFont";
+  font-weight: normal;
+  font-style: "Regular";
+  src: url("../fonts/icofont.woff2") format("woff2"),
+  url("../fonts/icofont.woff") format("woff");
+}
+
+[class^="icofont-"], [class*=" icofont-"] {
+  font-family: 'IcoFont' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+
+.icofont-worker:before {
+  content: "\e9c2";
+}
+
+.icofont-tasks-alt:before {
+  content: "\f006";
+}
+
+.icofont-team:before {
+  content: "\edd2";
+}
