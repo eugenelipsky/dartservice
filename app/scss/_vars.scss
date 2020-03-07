@@ -1,2 +1,12 @@
 $main-dark: #061e37;
 $light-gray: #b0bec5;
+
+%main__btn {
+  text-transform: uppercase;
+  width: 151px;
+  font-size: 15px;
+  padding: 15px 0;
+  border-radius: 5px;
+  font-weight: 700;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.15);
+}
