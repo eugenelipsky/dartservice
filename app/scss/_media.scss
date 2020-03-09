@@ -1,3 +1,17 @@
+@supports (-webkit-touch-callout: none) {
+  .jq-checkbox.checked .jq-checkbox__div {
+    &::before {
+      content: "\f00c";
+      font-family: 'icomoon';
+      font-size: 13px;
+      color: #061e37;
+      top: -35%;
+      left: 13%;
+      position: absolute;
+    }
+  }
+}
+
 @media (max-width: 1300px) {
   .numbers__item {
     padding: 45px 0 45px 60px;

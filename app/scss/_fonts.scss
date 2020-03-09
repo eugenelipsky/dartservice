@@ -26,6 +26,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-check:before {
+  content: "\f00c";
+}
 .icon-facebook-square:before {
   content: "\f082";
 }
@@ -122,6 +125,7 @@
 .icon-trending_up:before {
   content: "\e90f";
 }
+
 
 
 /*ICOFONT*/

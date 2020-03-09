@@ -715,9 +715,21 @@
   width: 8px;
   height: 4px;
   margin: 3px 0 0 2px;
-  border-bottom: 1px solid $main-dark;
-  border-left: 1px solid $main-dark;
+  border-bottom: none;
+  border-left: none;
+  transform: none;
+
+  &::before {
+    content: "\f00c";
+    font-family: 'icomoon';
+    font-size: 13px;
+    color: #061e37;
+    top: -50%;
+    left: 0;
+    position: absolute;
+  }
 }
+
 
 .footer {
   background-color: $main-dark;
