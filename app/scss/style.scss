@@ -596,6 +596,7 @@
 .contact__title {
   font-size: 45px;
   line-height: 45px;
+  font-weight: 600;
   color: $main-dark;
   padding-bottom: 30px;
 }
@@ -694,7 +695,7 @@
 
 .footer {
   background-color: $main-dark;
-  padding: 96px 0 108px;
+  padding: 96px 0 88px;
 }
 
 .footer__top,
@@ -720,10 +721,6 @@
       }
     }
   }
-}
-
-.footer__bottom {
-
 }
 
 .footer__bottom-menu {
@@ -769,6 +766,25 @@
         font-size: 20px;
 
       }
+    }
+  }
+}
+
+.footer__author {
+  padding-top: 40px;
+  color: #fff;
+  max-width: 250px;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 16px;
+
+  a {
+    color: #fff;
+    cursor: pointer;
+
+    &:hover {
+      opacity: .8;
+      border-bottom: 2px solid #1de9b6;
     }
   }
 }

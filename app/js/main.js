@@ -1,4 +1,7 @@
 $(function () {
+
+    new WOW().init();
+
     $('.toggle').click(function(e) {
         e.preventDefault();
 
