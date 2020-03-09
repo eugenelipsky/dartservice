@@ -560,12 +560,17 @@
   max-width: 200px;
   margin: 30px auto;
 
-  li {
+  a {
     font-size: 20px;
     color: #90a4ae;
 
-    & + li {
+    & + a {
       padding-left: 30px;
+    }
+
+    li {
+      font-size: 20px;
+      color: #90a4ae;
     }
   }
 }
@@ -588,9 +593,8 @@
 
 .contact__top {
   max-width: 557px;
-  margin: 0 auto;
+  margin: 0 auto 50px;
   text-align: center;
-  margin-bottom: 50px;
 }
 
 .contact__title {
