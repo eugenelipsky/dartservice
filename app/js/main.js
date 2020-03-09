@@ -1,8 +1,11 @@
 $(function () {
 
-    new WOW().init();
+    wow = new WOW({
+        mobile: false
+    })
+    wow.init();
 
-    $('.toggle').click(function(e) {
+    $('.toggle').click(function (e) {
         e.preventDefault();
 
         var $this = $(this);
@@ -23,6 +26,14 @@ $(function () {
         slidesToScroll: 1,
         vertical: true,
         verticalSwiping: true,
+        responsive: [
+            {
+                breakpoint: 540,
+                settings: {
+                    arrows: false
+                }
+            }
+        ]
     });
 
     $('.team__slider').slick({
@@ -31,7 +42,15 @@ $(function () {
         arrows: false,
         centerMode: true,
         variableWidth: true,
-        asNavFor: '.team__info-slider'
+        asNavFor: '.team__info-slider',
+        responsive: [
+            {
+                breakpoint: 500,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
     });
     $('.team__info-slider').slick({
         slidesToShow: 1,
@@ -44,12 +63,16 @@ $(function () {
     $('.form__checkbox').styler();
 
     $('.header__video-img, .header__video-control').magnificPopup({
-        disableOn: 700,
+        disableOn: 320,
         type: 'iframe',
         mainClass: 'mfp-fade',
         removalDelay: 160,
         preloader: false,
-
         fixedContentPos: false
     });
+
+    $('.main__menu-mobile').on('click', function () {
+        $('.main__menu').slideToggle();
+    });
+
 });
