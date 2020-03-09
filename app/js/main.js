@@ -21,4 +21,32 @@ $(function () {
         vertical: true,
         verticalSwiping: true,
     });
+
+    $('.team__slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: false,
+        centerMode: true,
+        variableWidth: true,
+        asNavFor: '.team__info-slider'
+    });
+    $('.team__info-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        asNavFor: '.team__slider',
+        focusOnSelect: true,
+        arrows: false,
+    });
+
+    $('.form__checkbox').styler();
+
+    $('.header__video-img, .header__video-control').magnificPopup({
+        disableOn: 700,
+        type: 'iframe',
+        mainClass: 'mfp-fade',
+        removalDelay: 160,
+        preloader: false,
+
+        fixedContentPos: false
+    });
 });
