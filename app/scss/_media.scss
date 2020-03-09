@@ -103,6 +103,20 @@
     display: block;
     margin: 7px 15px 0 auto;
     z-index: 2;
+
+
+    &.active {
+      div {
+        transition: all .3s;
+      }
+      div:nth-child(1) {
+        transform: rotate(45deg);
+      }
+      div:nth-child(2) {
+        transform: rotate(-45deg);
+        margin-top: -11px;
+      }
+    }
   }
 
   .header__btn-mobile {

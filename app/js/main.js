@@ -73,6 +73,7 @@ $(function () {
 
     $('.main__menu-mobile').on('click', function () {
         $('.main__menu').slideToggle();
+        $(this).toggleClass('active')
     });
 
 });
